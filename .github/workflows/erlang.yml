@@ -12,11 +12,7 @@ jobs:
       matrix:
         otp:
           - 24
-          - 23
-          - 22
-          - 21
-          - 20
-          - 19
+          - 26
     steps:
       - uses: actions/checkout@v2
       - run: rebar3 compile
